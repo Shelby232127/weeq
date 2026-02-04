@@ -1419,7 +1419,7 @@ function redzlib:MakeWindow(Configs)
         Size = UDim2.new(1, 0, 1, 0),
         Position = UDim2.new(0, 0, 0, 0),
         BackgroundTransparency = 0,
-        Image = "rbxassetid://78906415154096", 
+        Image = "rbxassetid://101614251079837", 
         ImageTransparency = 0,
         ScaleType = Enum.ScaleType.Crop,
         ZIndex = 0
@@ -1697,8 +1697,8 @@ function redzlib:MakeWindow(Configs)
     local Window, FirstTab = {}, false
     function Window:CloseBtn()
         local Dialog = Window:Dialog({
-            Title = "BRUTON HUB",  
-            Text = "Are you sure you want to close?", 
+            Title = "Lyra Hub",  
+            Text = "Tem certeza que ja vai sair?", 
             Options = {
                 {"Yes", function()  
                     ScreenGui:Destroy()
